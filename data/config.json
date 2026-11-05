@@ -1,14 +1,14 @@
 {
   "ai": {
     "provider": "gemini",
-    "model": "gemini-3.8-flash",
+    "model": "gemini-2.5-flash",
     "api_key_env": "GOOGLE_API_KEY"
   },
   "sources": {
     "hackernews": {
       "enabled": true,
-      "fetch_top_stories": 30,
-      "min_score": 100
+      "fetch_top_stories": 15,
+      "min_score": 150
     },
     "rss": [
       {
